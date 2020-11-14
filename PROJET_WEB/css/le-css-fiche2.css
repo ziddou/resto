@@ -1,0 +1,285 @@
+
+
+#form-2
+{
+    z-index: 50;
+    border-color: rgba(165, 83, 5, 0.658) ;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.349);
+    padding-bottom: 50px ;
+
+    position: absolute ;
+    top: 1000px ;
+    left: 80px;
+    width: 1270px ;
+    height: 800px;
+
+    margin-bottom: 100px;
+    display: none ; 
+
+}
+
+#checkblock
+{
+    position: absolute;
+    left: 380px ;
+    top: 725px ;
+
+}
+
+#titre-commande
+{
+    text-decoration: underline overline ;
+    text-decoration-color: coral ;
+    background-color: rgba(0, 0, 0, 0.781) ;
+
+    position: relative ;
+    left: 100px;
+    top: 20px ;
+
+    border-style: groove ;
+    border-bottom-left-radius: 50px ;
+    border-bottom-right-radius: 200px ;
+    border-color: rgba(245, 245, 245, 0.61) ;
+
+    width: 800px ;
+    padding-left: 50px ; 
+    padding-top: 18px ;
+    padding-bottom: 18px ;
+
+}
+
+
+
+
+#titre-entree
+{
+    position: relative ;
+    left: 180px ;
+    top: 40px;
+
+    text-decoration-line: underline ;
+    text-decoration-color: coral ;
+}
+
+#contenu-entree
+{
+    background-color: black ;
+    line-height: 35px;
+
+    position: relative ;
+    left: 20px ;
+    top: 40px;
+
+    border-style: solid ;
+    padding-top: 30px ;
+    padding-left: 45px;
+
+    width: 400px;
+    height: 280px;
+
+    transition: top , left , right , bottom , 400ms ease-in-out;
+}
+
+#contenu-entree:hover
+{
+
+    position: relative ;
+    left: 15px ;
+    top: 35px;
+
+    padding-top: 35px ;
+    padding-left: 50px ;
+
+    width: 410px;
+    height: 290px;
+
+}
+
+
+
+#titre-resistance
+{
+    position: absolute ;
+    left: 580px ;
+    top: 138px;
+
+    text-decoration-line: underline ;
+    text-decoration-color: coral ;
+}
+
+#contenu-resistance
+{
+    background-color: black ;
+    line-height: 35px;
+
+    position: absolute ;
+    left: 460px ;
+    top: 178px;
+
+    border-style: solid ;
+    padding-top: 30px ;
+    padding-left: 45px;
+
+    width: 380px;
+    height: 280px;
+
+    transition: top , left , right , bottom , 400ms ease-in-out;
+}
+
+#contenu-resistance:hover
+{
+
+    position: absolute ;
+    left: 455px ;
+    top: 173px;
+
+    padding-top: 35px ;
+    padding-left: 50px ;
+
+    width: 390px;
+    height: 290px;
+
+}
+
+
+
+#titre-dessert
+{
+    position: absolute ;
+    left: 1010px ;
+    top: 138px;
+
+    text-decoration-line: underline ;
+    text-decoration-color: coral ;
+}
+
+#contenu-dessert
+{
+    background-color: black ;
+    line-height: 35px;
+
+    position: absolute ;
+    left: 860px ;
+    top: 178px;
+
+    border-style: solid ;
+    padding-top: 30px ;
+    padding-left: 45px;
+
+    width: 380px;
+    height: 280px;
+
+    transition: top , left , right , bottom , 400ms ease-in-out;
+}
+
+#contenu-dessert:hover
+{
+
+    position: absolute ;
+    left: 855px ;
+    top: 173px;
+
+    padding-top: 35px ;
+    padding-left: 50px ;
+
+    width: 390px;
+    height: 290px;
+
+}
+
+.entree
+{
+
+    position: absolute ;
+    left: 65px ;
+    top: 500px;
+
+    color: rgb(80, 39, 1) ;
+    background-color: wheat ;
+
+    border-radius: 10px ;
+    border-color: rgba(165, 83, 5, 0.658) ;
+
+    height: 30px;
+
+}
+
+.resistance
+{
+
+    position: absolute ;
+    left: 530px ;
+    top: 500px;
+
+    color: rgb(80, 39, 1) ;
+    background-color: wheat ;
+
+    border-radius: 10px ;
+    border-color: rgba(165, 83, 5, 0.658) ;
+
+    height: 30px;
+
+}
+
+.dessert
+{
+
+    position: absolute ;
+    left: 950px ;
+    top: 500px;
+
+    color: rgb(80, 39, 1) ;
+    background-color: wheat ;
+
+    border-radius: 10px ;
+    border-color: rgba(165, 83, 5, 0.658) ;
+    border-width: 2px ;
+
+    height: 30px;
+    
+}
+
+#boutton-2
+{
+
+    z-index: 200;
+    position: absolute ;
+    left: 100px ;
+    top: 620px ;
+
+    color: rgba(165, 83, 5, 0.658) ;
+    background-color: rgb(30, 30, 30);
+
+    border-radius: 10px ;
+    border-color: rgba(165, 83, 5, 0.658) ;
+
+    padding-left: 35px ;
+    padding-right: 35px ;
+    padding-top: 0px ;
+    padding-bottom: 0px ;
+
+    transition: left ,top , right , bottom , 200ms ease-in-out ;
+}
+
+#boutton-2:hover
+{
+    color: rgb(30 ,30 ,30) ;
+    background-color: rgba(165, 83, 5, 0.658);
+
+    border-radius: 10px ;
+    border-color: rgb(30 ,30 ,30) ;
+
+    padding-left: 40px ;
+    padding-right: 40px ;
+    padding-top: 5px ;
+    padding-bottom: 5px ;
+
+}
+
+#merci
+{
+    position: absolute ;
+    left: 475px ;
+    top: 650px ;
+}

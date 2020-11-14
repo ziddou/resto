@@ -1,0 +1,216 @@
+#zd
+{
+    z-index: 110;
+    position: absolute ;
+    left: 265px ;
+    top: 178px ;
+    color:  rgba(133, 133, 133, 0.897) ;
+    font-size: 65%;
+
+}
+
+.body
+{
+
+    background-image:url('../images/fond-page.jpg') ;
+    background-repeat: auto ;
+    background-attachment: fixed ;
+    
+    background-color: black ;
+
+}
+
+#titre-1
+{
+    z-index: 98;
+   
+    color: rgba(133, 133, 133, 0.897) ;
+    font-family: 'Times New Roman', Times, serif ;
+    
+    position: absolute ;
+    left: 580px;
+    top: 160px ;
+
+    text-decoration: underline overline ;
+    text-decoration-style: double;
+
+}
+
+#boxe-1
+{
+    z-index: 99 ;
+
+    position: absolute ;
+    left: 192px ;
+    top: 26px ;
+    height: 180px ;
+    width: 180px ;
+
+    transform: rotate(70deg);
+
+    background-color: rgb(30, 30, 30) ;
+    border-style: solid ;
+    border-width: 5px ;
+    border-bottom-color: rgba(87, 44, 4, 0.658) ;
+
+}
+
+#logo-1
+{
+    z-index: 100 ;
+
+    position: absolute ;
+    left: 200px ;
+    top: 50px ;
+    max-width: 160px ;
+    border-radius: 100px ;
+    border-style: double ;
+    border-color: rgba(165, 83, 5, 0.658);
+    border-width: 5px ;
+
+}
+
+#boxe-2
+{
+    z-index: 10 ;
+
+    background-color: rgba(82, 82, 82, 0.8) ;
+    border-style: outset ;
+    border-color: black ;
+    
+    width: 1000px ;
+    height: 116px ;
+    position: absolute ;
+    left: 230px ;
+    top: 118px ;
+    border-bottom-right-radius: 200px ;
+
+    border-width: 5px ;
+}
+
+.couleur-text
+{
+
+    color: wheat ;
+
+}
+
+.form-1
+{
+
+    border-color: rgba(165, 83, 5, 0.658) ;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.349);
+    padding-bottom: 50px ;
+
+    position: absolute ;
+    top: 350px ;
+    left: 80px;
+    width: 600px ;
+    height: 560px;
+
+    margin-bottom: 100px;
+
+}
+
+
+#boutton
+{
+    position: relative ;
+    top: 25px ;
+    left: 60px ;
+    height: 50px ;
+    width: 100px ;
+    padding-bottom: 50px ;
+
+    color: rgba(165, 83, 5, 0.658) ;
+    background-color: rgb(30, 30, 30);
+
+    border-radius: 10px ;
+    border-color: rgba(165, 83, 5, 0.658) ;
+
+    transition: top , bottom , right ,left , 250ms ease-in-out ;
+
+}
+
+#boutton:hover
+{
+    position: relative ;
+    top: 25px ;
+    left: 58px ;
+    height: 60px ;
+    width: 120px ;
+    padding-bottom: 50px ;
+
+    color:  rgb(30, 30, 30) ;
+    background-color:rgba(165, 83, 5, 0.658);
+
+    border-radius: 10px ;
+    border-color:  rgb(30, 30, 30)  ;
+
+}
+
+#photo-1
+{
+    border-style: solid ;
+    border-width: 1px ;
+    border-color: rgba(165, 83, 5, 0.658) ;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.349);
+
+
+    position: absolute ;
+    top: 395px ;
+    left: 750px;
+    width: 600px;
+    height: 400px ;
+
+}
+
+* { 
+    box-sizing: border-box;
+}
+
+.colone
+{
+    z-index: 121 ;
+    width: 450px ;
+    position: relative ;
+    left: 830px ;
+    top: 810px ;
+
+    border-style: solid ;
+    border-color:  rgba(165, 83, 5, 0.658) ;
+    border-radius: 10px ;
+    border-width: 2px ;
+
+    padding-top: 5px ;
+    padding-left: 32px ;
+
+    background-color: black ;
+
+    transition: top , left , right , bottom , 500ms ease-in-out;
+    
+
+}
+
+.colone:hover
+{
+   
+    width: 550px ;
+    height: 400px ;
+
+}
+
+
+.p
+{
+    z-index: 120;
+    transition: top , left , right , bottom , 300ms ease-in-out;
+}
+
+.p:hover
+{
+    width: 80% ;
+    
+}
